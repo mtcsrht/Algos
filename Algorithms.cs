@@ -67,7 +67,7 @@ public class Algorithms
             }
         }
     }
-    private static int Szetvalogat(ref int[] x, int bal, int jobb)
+    public static int Szetvalogat(ref int[] x, int bal, int jobb)
     {
         int seged = x[bal];
         while (bal < jobb)
@@ -107,7 +107,6 @@ public class Algorithms
             GyorsRendezes(ref x, idx + 1, jobb);
         }
     }
-
     public static int K_adikLegkisebbElem(int[] x, int bal, int jobb, int k)
     {
         if (bal == jobb)
